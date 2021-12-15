@@ -18,3 +18,5 @@ def lcs(X, Y):
             else:
                 l[(i, j)] = max(l[(i - 1, j)], l[(i, j - 1)])
                 
+    return l
+                
