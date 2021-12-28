@@ -19,4 +19,9 @@ def lcs(X, Y):
                 l[(i, j)] = max(l[(i - 1, j)], l[(i, j - 1)])
                 
     return l
+
+# Driver program to test the above function
+X = 'AGGTAB'
+Y = 'GXTXAYB'
+print = ('Length of LCS is ', lcs(X, Y))
                 
